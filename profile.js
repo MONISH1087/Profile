@@ -149,3 +149,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Copyright Year ---
     document.getElementById('year').textContent = new Date().getFullYear();
 });
+
+function sendmail() {
+    let params ={
+    name : document.getElementById("name").value,
+    email : document.getElementById("email").value,
+    subject : document.getElementById("subject").value,
+    message : document.getElementById("message").value 
+    }
+
+    emailjs.send("service_a2ee058", "template_uxjj99p", params).then(alert("Message Sent Successfully!"))
+}
