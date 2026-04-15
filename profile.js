@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     // --- Typewriter Effect ---
-    const texts = ["Web Developer", "UI/UX Designer", "Problem Solver"];
+    const texts = ["Web Developer", "Video Editor","UI/UX Designer", "Problem Solver"];
     let count = 0;
     let index = 0;
     let currentText = '';
@@ -149,8 +149,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Copyright Year ---
     document.getElementById('year').textContent = new Date().getFullYear();
 });
-
-function sendmail() {
+//-------Sending Message to My Email Id-----
+function sendmail(){
     let params ={
     name : document.getElementById("name").value,
     email : document.getElementById("email").value,
@@ -158,5 +158,5 @@ function sendmail() {
     message : document.getElementById("message").value 
     }
 
-    emailjs.send("service_a2ee058", "template_uxjj99p", params).then(alert("Message Sent Successfully!"))
+    emailjs.send("service_a2ee058", "template_uxjj99p", params).then(alert("Your Message Sent Successfully!.."))
 }
