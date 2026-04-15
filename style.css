@@ -77,9 +77,9 @@ section {
 /* Buttons */
 .btn {
     display: inline-block;
-    padding: 14px 30px;
-    border-radius: 30px;
-    font-size: 1.1rem;
+    padding: 18px 40px;
+    border-radius: 40px;
+    font-size: 1.25rem;
     font-weight: 600;
     text-decoration: none;
     cursor: pointer;
@@ -830,5 +830,24 @@ footer p {
         flex-direction: column;
         align-items: center;
         gap: 15px;
+    }
+    
+    .btn {
+        padding: 12px 24px;
+        font-size: 1rem;
+    }
+    
+    .contact-info {
+        text-align: center;
+    }
+    
+    .contact-methods {
+        align-items: center;
+    }
+    
+    .method {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
     }
 }
