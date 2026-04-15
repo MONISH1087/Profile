@@ -14,7 +14,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Outfit', sans-serif;
+    font-family: "Chicle", sans-serif;
 }
 
 html {
@@ -834,7 +834,7 @@ footer p {
     
     .btn {
         padding: 12px 24px;
-        font-size: 1rem;
+        font-size: 0.75rem;
     }
     
     .contact-info {
